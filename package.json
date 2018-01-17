@@ -1,0 +1,30 @@
+{
+  "name": "gamepad-info",
+  "version": "0.0.0-development",
+  "description": "Retrieve information about a gamepad",
+  "keywords": [
+    "gamepad",
+    "gamepad-api"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && mocha test.js",
+    "release": "semantic-release"
+  },
+  "author": "Niklas Higi <niklas@shroudedcode.com> (https://shroudedcode.com/)",
+  "repository": "shroudedcode/gamepad-info",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0",
+    "xo": "^0.18.2",
+    "semantic-release": "^12.2.2"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false
+  }
+}
