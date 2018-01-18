@@ -18,7 +18,6 @@ describe('The `gamepad-info` package', () => {
     ]) {
       describe(browser, () => {
         const result = g(input)
-        console.log(result)
 
         it('correctly extract the vendor ID', () => {
           expect(result.vendorId).to.equal('045e')
