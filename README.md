@@ -2,6 +2,9 @@
 
 > Retrieve information about a gamepad
 
+[![build status][build-badge]][build-link]
+[![npm][npm-badge]][npm-link]
+
 ## Installation
 
 ```
@@ -40,3 +43,9 @@ MIT © [Niklas Higi](https://shroudedcode.com)
 
 [gamepad-instance]: https://developer.mozilla.org/en-US/docs/Web/API/Gamepad
 [gamepad-id-string]: https://developer.mozilla.org/en-US/docs/Web/API/Gamepad/id
+
+[build-badge]: https://img.shields.io/travis/shroudedcode/gamepad-info.svg?style=flat-square
+[build-link]: https://travis-ci.org/shroudedcode/gamepad-info
+
+[npm-badge]: https://img.shields.io/npm/v/gamepad-info.svg?style=flat-square
+[npm-link]: https://www.npmjs.com/package/gamepad-info
