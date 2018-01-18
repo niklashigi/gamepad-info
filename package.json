@@ -15,7 +15,8 @@
   "repository": "shroudedcode/gamepad-info",
   "license": "MIT",
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "devDependencies": {
     "chai": "^4.1.2",
