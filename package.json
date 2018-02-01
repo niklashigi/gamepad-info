@@ -1,6 +1,6 @@
 {
   "name": "gamepad-info",
-  "version": "0.0.0-development",
+  "version": "0.0.0-semantically-released",
   "description": "Retrieve information about a gamepad",
   "keywords": [
     "gamepad",
