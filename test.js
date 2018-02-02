@@ -23,6 +23,10 @@ describe('The `gamepad-info` package', () => {
           expect(result.vendorId).to.equal('045e')
         })
 
+        it('return a vendor name if possible', () => {
+          expect(result.vendor).to.equal('microsoft')
+        })
+
         it('correctly extract the product ID', () => {
           expect(result.productId).to.equal('0719')
         })

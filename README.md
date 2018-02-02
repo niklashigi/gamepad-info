@@ -30,11 +30,13 @@ Takes in a [`Gamepad` instance][gamepad-instance] or a [`gamepad.id` string][gam
 ```js
 { name: 'Xbox 360 Wireless Receiver',
   vendorId: '045e',
+  vendor: 'microsoft',
   productId: '0719' }
 ```
 
 * `name` is the user-friendly name of the gamepad.
 * `vendorId` is the ID of the vendor.
+* `vendor` is the vendor's name and only available for [some vendors](vendors.js).
 * `productId` is the ID of the product  and might vary between browsers.
 
 ## License
