@@ -35,9 +35,9 @@ Takes in a [`Gamepad` instance][gamepad-instance] or a [`gamepad.id` string][gam
 ```
 
 * `name` is the user-friendly name of the gamepad.
-* `vendorId` is the ID of the vendor.
+* `vendorId` is the vendor's [USB vendor ID][usb-vendor-id].
 * `vendor` is the vendor's name and only available for [some vendors](vendors.js).
-* `productId` is the ID of the product  and might vary between browsers.
+* `productId` is the ID of the product and might vary between browsers.
 
 ## License
 
@@ -45,6 +45,7 @@ MIT © [Niklas Higi](https://shroudedcode.com)
 
 [gamepad-instance]: https://developer.mozilla.org/en-US/docs/Web/API/Gamepad
 [gamepad-id-string]: https://developer.mozilla.org/en-US/docs/Web/API/Gamepad/id
+[usb-vendor-id]: https://en.wikipedia.org/wiki/USB_Implementers_Forum#Obtaining_a_vendor_ID
 
 [build-badge]: https://img.shields.io/travis/shroudedcode/gamepad-info.svg?style=flat-square
 [build-link]: https://travis-ci.org/shroudedcode/gamepad-info
