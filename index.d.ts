@@ -5,6 +5,9 @@ interface GamepadInfo {
   /** The USB vendor ID of the gamepad. */
   vendorId: string
 
+  /** The name of the vendor. Only available for some vendors. */
+  vendor: string
+
   /** The USB product ID of the gamepad. */
   productId: string
 }
