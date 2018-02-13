@@ -21,7 +21,7 @@ function parseId(id) {
   }
 }
 
-module.exports = input => {
+function getGamepadInfo(input) {
   if (typeof input !== 'string') {
     if (input.id) {
       if (typeof input.id !== 'string') {
@@ -45,3 +45,6 @@ module.exports = input => {
 
   return data
 }
+
+exports.default = getGamepadInfo
+module.exports = exports.default
