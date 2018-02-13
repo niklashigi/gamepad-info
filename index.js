@@ -1,3 +1,5 @@
+'use strict'
+
 const vendors = require('./vendors')
 
 const firefoxRegex = /^([\da-f]{4})-([\da-f]{4})-(.*)$/i
@@ -46,5 +48,4 @@ function getGamepadInfo(input) {
   return data
 }
 
-exports.default = getGamepadInfo
-module.exports = exports.default
+module.exports = getGamepadInfo
