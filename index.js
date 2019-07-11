@@ -13,7 +13,9 @@ function parseId(id) {
       vendorId: matches[1],
       productId: matches[2]
     }
-  } else if (chromeRegex.test(id)) {
+  }
+
+  if (chromeRegex.test(id)) {
     const matches = id.match(chromeRegex)
     return {
       name: matches[1],
@@ -29,6 +31,7 @@ function getGamepadInfo(input) {
       if (typeof input.id !== 'string') {
         throw new TypeError('The `id` property on the Gamepad instance is not a string!')
       }
+
       input = input.id
     } else {
       throw new TypeError('The object is missing the `id` property!')

@@ -21,9 +21,9 @@
   ],
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^4.1.0",
-    "xo": "^0.18.2",
-    "semantic-release": "^12.2.2"
+    "mocha": "^6.1.4",
+    "semantic-release": "^15.13.18",
+    "xo": "^0.24.0"
   },
   "xo": {
     "space": true,

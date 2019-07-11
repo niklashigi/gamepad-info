@@ -1,6 +1,6 @@
 const {expect} = require('chai')
 const {describe, it} = require('mocha')
-const g = require('./')
+const g = require('.')
 
 describe('The `gamepad-info` package', () => {
   it('should export a function', () => {
